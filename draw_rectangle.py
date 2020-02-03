@@ -1,3 +1,5 @@
+
+
 import cv2
 import numpy
 
@@ -24,3 +26,4 @@ def draw_rectangle(picture_path, ax_x1, ax_y1, ax_x2, ax_y2):
 	
 	
 if __name__ == '__main__':
+	print(2)
