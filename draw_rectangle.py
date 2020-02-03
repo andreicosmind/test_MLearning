@@ -1,4 +1,4 @@
-import cv2 as cv
+import cv2
 import numpy
 
 def draw_rectangle(picture_path, ax_x1, ax_y1, ax_x2, ax_y2):
@@ -12,13 +12,13 @@ def draw_rectangle(picture_path, ax_x1, ax_y1, ax_x2, ax_y2):
 		4) the x coordinate of the up-rigth corner
 		5) the ycoordinate of the up-rigth corner
 	'''
-	img = cv.imread(picture_path, 1)
-	cv.rectangle(img, (ax_x1, ax_y1), (ax_x2, ax_y2), (196,30,58), 7)
+	img = cv2.imread(picture_path, 1)
+	cv2.rectangle(img, (ax_x1, ax_y1), (ax_x2, ax_y2), (196,30,58), 7)
 	
-	cv.imshow('view', img)
-	cv.waitKey(0)
-	cv.destroyAllWindows()
-	cv.imwrite('procesata.png', img)
+	cv2.imshow('view', img)
+	cv2.waitKey(0)
+	cv2.destroyAllWindows()
+	cv2.imwrite('procesata.png', img)
 	
 	
 	
