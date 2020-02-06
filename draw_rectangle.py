@@ -1,6 +1,7 @@
 import cv2
 import numpy
-
+import argparse
+import tqdm
 
 def draw_rectangle(picture_path, ax_x1, ax_y1, ax_x2, ax_y2):
 	"""
