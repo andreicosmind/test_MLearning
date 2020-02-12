@@ -25,3 +25,5 @@ def resize_pic(path, x_axis=10, y_axis=10):
 cv2.destroyAllWindows()
 
 resize_pic('1.jpg')
+print(2)
+
